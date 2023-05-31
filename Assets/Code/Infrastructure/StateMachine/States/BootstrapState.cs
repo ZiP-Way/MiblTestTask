@@ -1,4 +1,5 @@
 ﻿using Services.StaticData;
+using UnityEngine;
 
 namespace Infrastructure.StateMachine.States
 {
@@ -20,6 +21,8 @@ namespace Infrastructure.StateMachine.States
     
     public void Enter()
     {
+      Application.targetFrameRate = 60;
+      
       _staticDataService.Load();
       MoveToLevel();
     }
