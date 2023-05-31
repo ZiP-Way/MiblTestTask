@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59be723fed19450d94f323e082e83273, type: 3}
+  m_Name: CubeEnemy
+  m_EditorClassIdentifier: 
+  EnemyId: 1
+  Settings:
+    MovementSpeed: 6.5
+  Prefab: {fileID: 9103571906583143037, guid: 5f1ef2c80043f534b9d3b1f083f09189, type: 3}
